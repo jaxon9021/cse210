@@ -33,6 +33,17 @@ class Program
         {
             Console.WriteLine("Your grade is a F");
         }
+
+        if (grade >= 70)
+        {
+            Console.WriteLine("You have passed this course!");
+        }
+        else if (grade < 70)
+        {
+            Console.WriteLine("Sorry you failed, Lol :')");
+        }
     }
+
+
 
 }
